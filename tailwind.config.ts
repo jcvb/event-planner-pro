@@ -7,6 +7,11 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
+      height: {
+        '128': '32rem',
+      }
+    },
     colors: {
       "epp-primary": "#1D04BF",
       "epp-secondary": "#04D9D9",
