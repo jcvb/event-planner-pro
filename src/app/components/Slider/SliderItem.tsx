@@ -16,8 +16,8 @@ export default function SliderItem({
           <h3 className=" text-5xl">{title}</h3>
           <p className=" font-light mt-4 text-lg">{message}</p>
         </div>
-        <div className="w-1/2 flex justify-center items-center p-10">
-          <Image src={image} className="w-auto" alt="ambulance" />
+        <div className="w-1/2 flex justify-center items-center p-20">
+          <Image src={image} className="w-auto" alt={title} />
         </div>
       </div>
     </>
