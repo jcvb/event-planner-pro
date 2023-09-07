@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.glassmorphism {
+  background: rgba(206, 225, 242, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

@@ -1,8 +1,12 @@
+import Header from "./components/common/Header";
 
 export default function Home() {
   return (
     <>
-      Hello World
+      <Header />
+      <div className="h-screen">
+        Content
+      </div>
     </>
   )
 }
