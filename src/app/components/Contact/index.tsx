@@ -1,15 +1,19 @@
+import Form from "../Form";
+import "./contact.css";
 import ladaList from "../../data/lada";
 
-export default function RegisterForm() {
+export default function Contact() {
   return (
     <>
-      <div className="w-full">
+      <div id="register" className="w-full register-bg pt-10">
+        <div className="flex flex-col justify-between items-center w-full md:max-w-screen-xl mx-auto px-32 py-16">
+        <div className="w-full">
         <h3 className="text-white text-center font-medium text-2xl mb-2">
-          Discuss a tailored solution
+          Contact
         </h3>
         <form action="" className="flex flex-col w-full">
           <div className="flex w-full">
-            <div className="flex flex-row w-1/2 mr-5">
+            
               <label className="w-full" htmlFor="fullName">
                 <span className="text-white">Full Name:</span>
                 <input
@@ -22,20 +26,7 @@ export default function RegisterForm() {
                 />
               </label>
             </div>
-            <div className="flex flex-row w-1/2 ml-5">
-              <label className="w-full" htmlFor="CompanyName">
-                <span className="text-white">Company Name:</span>
-                <input
-                  className="w-full"
-                  type="text"
-                  id="CompanyName"
-                  name="CompanyName"
-                  placeholder="Write your company name"
-                  required
-                />
-              </label>
-            </div>
-          </div>
+          
           <div className="flex flex-row mt-5">
             <label className="w-full" htmlFor="email">
               <span className="text-white">Email:</span>
@@ -78,23 +69,9 @@ export default function RegisterForm() {
             </div>
           </div>
           <div className="flex flex-row mt-5">
-            <label className="w-full" htmlFor="ticket">
-              <span className="text-white">
-                Number of tickets sold per year:
-              </span>
-              <select className="w-full" id="ticket" name="ticket" required>
-                <option value="">Select one</option>
-                <option value="1000">500</option>
-                <option value="10000">1,000</option>
-                <option value="10000">10,000</option>
-                <option value="10000">+1,000,000</option>
-              </select>
-            </label>
-          </div>
-          <div className="flex flex-row mt-5">
             <label className="w-full flex flex-col" htmlFor="message">
               <span className="text-white">
-                Please tell us more about your requirements
+                Message
               </span>
               <textarea
                 name="message"
@@ -109,6 +86,8 @@ export default function RegisterForm() {
             <button className="epp-btn-default">Submit</button>
           </div>
         </form>
+      </div>
+        </div>
       </div>
     </>
   );
