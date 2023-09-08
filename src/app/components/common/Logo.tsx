@@ -1,7 +1,7 @@
 export default function Logo() {
   return (
     <>
-      <a href="/">
+      <a href="/" aria-label="Link to home page">
       <svg
         className="w-48"
         id="Layer_1"

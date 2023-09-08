@@ -17,6 +17,7 @@ export default function Contact() {
               <label className="w-full" htmlFor="fullName">
                 <span className="text-white">Full Name:</span>
                 <input
+                  aria-label="Full name contact"
                   className="w-full"
                   type="text"
                   id="fullName"
@@ -31,6 +32,7 @@ export default function Contact() {
             <label className="w-full" htmlFor="email">
               <span className="text-white">Email:</span>
               <input
+                  aria-label="Email contact"
                 className="w-full"
                 type="text"
                 id="email"
@@ -44,7 +46,7 @@ export default function Contact() {
             <div className="flex flex-row w-2/12 mr-5">
               <label className="w-full" htmlFor="lada">
                 <span className="text-white">Lada:</span>
-                <select className="w-full" id="lada" name="lada" required>
+                <select className="w-full" id="lada" name="lada" aria-label="Lada contact" required>
                   <option value="">Select one</option>
                   {ladaList.map((item) => (
                     <option value={item.dial_code} key={item.dial_code}>
@@ -58,6 +60,7 @@ export default function Contact() {
               <label className="w-full" htmlFor="telephoneNumber">
                 <span className="text-white">Telephone number:</span>
                 <input
+                aria-label="Telephone number contact"
                   className="w-full"
                   type="tel"
                   id="telephoneNumber"
@@ -74,6 +77,7 @@ export default function Contact() {
                 Message
               </span>
               <textarea
+              aria-label="Message contact"
                 name="message"
                 rows={5}
                 id="message"
