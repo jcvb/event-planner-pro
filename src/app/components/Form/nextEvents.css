@@ -1,0 +1,6 @@
+.bg-next-events {
+  background: linear-gradient(180deg, rgba(4, 217, 217, 0.60) 0%, rgba(46, 52, 166, 0.60) 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
