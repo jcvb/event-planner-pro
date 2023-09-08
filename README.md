@@ -17,6 +17,52 @@ _EventPlanner Pro's website_, built with Next.js and TailwindCSS, is tailored fo
 ### 3. **Web Design**
 - **Responsive**: Designed for desktop and mobile.
 
+## Accordion Component
+
+The `Accordion` component is a reusable UI element designed to display collapsible content panels. 
+
+### Props:
+
+- **title (string)**: The header or title of the accordion which the users see before expanding.
+  
+- **content (string)**: The main content that is displayed once the accordion is expanded.
+
+### Usage:
+
+```jsx
+<Accordion
+  title="Your Title Here"
+  content="Your content here..."
+/>
+```
+
+## TextImageBlock Component
+
+The `TextImageBlock` component is a versatile UI element designed to display a combination of text and image side by side, making it perfect for sections that combine visual content with descriptive text.
+
+### Props:
+
+- **title (string)**: The main header or title for this block.
+  
+- **paragraph (string)**: A longer description or set of details that accompanies the title.
+
+- **image (object)**: The image asset you want to display. Ensure it's properly imported or sourced.
+
+- **text (string)**: Additional text that can be displayed, possibly as a caption or supplementary information.
+
+### Usage:
+
+```jsx
+import yourImageAsset from './path-to-your-image.jpg';
+
+<TextImageBlock
+  title="Your Title Here"
+  paragraph="Your descriptive paragraph here..."
+  image={yourImageAsset}
+  text="Any additional text here"
+/>
+```
+
 ### 4. **Scripting**
 - **Automation script**: Handles tasks like image compression and file minification.
 
