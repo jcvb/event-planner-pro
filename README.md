@@ -63,6 +63,34 @@ import yourImageAsset from './path-to-your-image.jpg';
 />
 ```
 
+## SliderItem Component
+
+The `SliderItem` component acts as an individual slide for the parent `Carousel` component. It efficiently displays an image along with associated title and message, making it optimal for slideshows or feature showcases.
+
+### Props:
+
+- **image (object)**: The primary image for this slide. Ensure it's properly imported or sourced.
+
+- **title (string)**: A headline or title for the slide.
+
+- **message (string)**: A longer description or message that provides additional details about the slide.
+
+### Usage:
+
+First, ensure you have the `Carousel` component properly set up.
+
+Then, for each `SliderItem`:
+
+```jsx
+import yourSlideImage from './path-to-your-slide-image.jpg';
+
+<SliderItem
+  image={yourSlideImage}
+  title="Slide Title Here"
+  message="Your detailed message or description for this slide here..."
+/>
+```
+
 ### 4. **Scripting**
 - **Automation script**: Handles tasks like image compression and file minification.
 
