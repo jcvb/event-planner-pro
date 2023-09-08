@@ -97,6 +97,8 @@ import yourSlideImage from './path-to-your-slide-image.jpg';
 ### 5. **Version Control**
 - **Git Repository**: Organized commits and branching using [GitHub](https://github.com/jcvb/event-planner-pro).
 
+![Git tree](https://i.ibb.co/FqPvhzQ/Screenshot-2023-09-08-at-6-29-10-a-m.png)
+
 ### 6. **Deployment**
 - **Platform**: Deployed on [Vercel](https://event-planner-pro.vercel.app/).
 - **Optimized assets**: All assets load correctly. [Performance evidence](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExODFjd2ZnZzc5cnRqMHpraTI3b25jcndxbDZyYnIybmN0YnpiMTZyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tYFWZxZ3To6YJpsP2n/giphy.gif).
