@@ -27,6 +27,7 @@ _EventPlanner Pro's website_, built with Next.js and TailwindCSS, is tailored fo
 - **Platform**: Deployed on [Vercel](https://event-planner-pro.vercel.app/).
 - **Optimized assets**: All assets load correctly. [Performance evidence](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExODFjd2ZnZzc5cnRqMHpraTI3b25jcndxbDZyYnIybmN0YnpiMTZyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tYFWZxZ3To6YJpsP2n/giphy.gif).
 
+![Lighthouse Performance](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExODFjd2ZnZzc5cnRqMHpraTI3b25jcndxbDZyYnIybmN0YnpiMTZyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tYFWZxZ3To6YJpsP2n/giphy.gif)
 
 
 
