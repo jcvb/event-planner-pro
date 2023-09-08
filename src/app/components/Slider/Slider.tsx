@@ -12,7 +12,7 @@ export default class Slider extends React.Component {
   render() {
     return (
       <>
-        <div className="bg-epp-default">
+        <div id="home" className="bg-epp-default pt-10">
           <div className="mt-1 md:max-w-screen-xl mx-auto">
             <Carousel
               autoPlay={true}

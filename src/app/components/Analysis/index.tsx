@@ -4,7 +4,7 @@ import TextImageBlock from "../common/TextImageBlock";
 export default function Analysis() {
   return (
     <>
-      <div className="w-full">
+      <div id="analysis" className="w-full pt-10">
         <div className="flex flex-col justify-between items-center w-full md:max-w-screen-xl mx-auto px-32 py-16">
           <h2 className="text-4xl font-light">
             After the Applause: An Analysis

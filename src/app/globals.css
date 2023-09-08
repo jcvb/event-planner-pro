@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .glassmorphism {
   background: rgba(206, 225, 242, 0.5);
   backdrop-filter: blur(10px);
