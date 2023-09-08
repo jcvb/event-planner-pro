@@ -13,6 +13,7 @@ export default function Menu() {
     <>
       <div>
         <button
+          aria-label="Button menu"
           onClick={() => toggleButton()}
           className="md:hidden bg-epp-primary-light p-2"
         >
