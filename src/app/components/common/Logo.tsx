@@ -2,7 +2,7 @@ export default function Logo() {
   return (
     <>
       <svg
-        className="w-40"
+        className="w-48"
         id="Layer_1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 941.03 289.76"

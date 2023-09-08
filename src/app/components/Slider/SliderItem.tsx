@@ -15,6 +15,10 @@ export default function SliderItem({
         <div className="w-1/2 flex flex-col justify-center items-center px-8">
           <h3 className=" text-5xl">{title}</h3>
           <p className=" font-light mt-4 text-lg">{message}</p>
+          <div className="pt-3">
+          <button className="epp-btn-default">Read more</button>
+          </div>
+          
         </div>
         <div className="w-1/2 flex justify-center items-center p-20">
           <Image src={image} className="w-auto" alt={title} />

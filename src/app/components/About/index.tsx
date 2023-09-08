@@ -1,5 +1,5 @@
-import Image from "next/image";
 import about from "./about.png";
+import TextImageBlock from "../common/TextImageBlock";
 
 export default function About() {
   return (
@@ -13,21 +13,14 @@ export default function About() {
             innovative tools. Today, we&apos;re trusted globally, blending
             tradition with cutting-edge technology. Explore our journey.
           </p>
-          <div className="flex items-center">
-            <div className="w-1/2">
-              <h3 className="text-2xl font-light">
-                Take full control of your venue
-              </h3>
-              <p className="mt-2 font-light">
-                Tailored access management ensures efficient, effective
+          <TextImageBlock
+            title="Take full control of your venue"
+            paragraph="Tailored access management ensures efficient, effective
                 oversight. Set up varied entry points for attendees, from VIP to
-                restricted zones, based on ticket type, capacity, and time.
-              </p>
-            </div>
-            <div className="w-1/2">
-              <Image src={about} className="w-auto" alt="About image" />
-            </div>
-          </div>
+                restricted zones, based on ticket type, capacity, and time."
+            image={about}
+            text="About image"
+          />
         </div>
       </div>
     </>

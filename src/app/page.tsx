@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Analysis from "./components/Analysis";
 import Register from "./components/Register";
 import Slider from "./components/Slider/Slider";
 import Footer from "./components/common/Footer";
@@ -11,6 +12,7 @@ export default function Home() {
       <Slider />
       <About />
       <Register />
+      <Analysis />
       <Footer />
     </>
   )
