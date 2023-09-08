@@ -10,13 +10,14 @@ export default function RegisterForm() {
         <form action="" className="flex flex-col w-full">
           <div className="flex w-full">
             <div className="flex flex-row w-1/2 mr-5">
-              <label className="w-full" htmlFor="fullName">
+              <label className="w-full" htmlFor="fullNameContact">
                 <span className="text-white">Full Name:</span>
                 <input
+                  aria-label="Full name register"
                   className="w-full"
                   type="text"
-                  id="fullName"
-                  name="fullName"
+                  id="fullNameContact"
+                  name="fullNameContact"
                   placeholder="Write your name"
                   required
                 />
@@ -26,6 +27,7 @@ export default function RegisterForm() {
               <label className="w-full" htmlFor="CompanyName">
                 <span className="text-white">Company Name:</span>
                 <input
+                  aria-label="Company Name register"
                   className="w-full"
                   type="text"
                   id="CompanyName"
@@ -37,13 +39,14 @@ export default function RegisterForm() {
             </div>
           </div>
           <div className="flex flex-row mt-5">
-            <label className="w-full" htmlFor="email">
-              <span className="text-white">Email:</span>
+            <label className="w-full" htmlFor="emailContact">
+              <span className="text-white">emailContact:</span>
               <input
+                aria-label="emailContact register"
                 className="w-full"
-                type="text"
-                id="email"
-                name="email"
+                type="email"
+                id="emailContact"
+                name="emailContact"
                 placeholder="Write your email"
                 required
               />
@@ -51,9 +54,15 @@ export default function RegisterForm() {
           </div>
           <div className="flex w-full mt-5">
             <div className="flex flex-row w-2/12 mr-5">
-              <label className="w-full" htmlFor="lada">
+              <label className="w-full" htmlFor="ladaContact">
                 <span className="text-white">Lada:</span>
-                <select className="w-full" id="lada" name="lada" required>
+                <select
+                  className="w-full"
+                  id="ladaContact"
+                  name="ladaContact"
+                  aria-label="Lada register"
+                  required
+                >
                   <option value="">Select one</option>
                   {ladaList.map((item) => (
                     <option value={item.dial_code} key={item.dial_code}>
@@ -64,13 +73,14 @@ export default function RegisterForm() {
               </label>
             </div>
             <div className="flex flex-row w-10/12 ml-5">
-              <label className="w-full" htmlFor="telephoneNumber">
+              <label className="w-full" htmlFor="telephoneNumberContact">
                 <span className="text-white">Telephone number:</span>
                 <input
+                  aria-label="Telephone number register"
                   className="w-full"
                   type="tel"
-                  id="telephoneNumber"
-                  name="telephoneNumber"
+                  id="telephoneNumberContact"
+                  name="telephoneNumberContact"
                   placeholder="Write your telephone number"
                   required
                 />
@@ -82,7 +92,13 @@ export default function RegisterForm() {
               <span className="text-white">
                 Number of tickets sold per year:
               </span>
-              <select className="w-full" id="ticket" name="ticket" required>
+              <select
+                className="w-full"
+                id="ticket"
+                name="ticket"
+                aria-label="Ticket register"
+                required
+              >
                 <option value="">Select one</option>
                 <option value="1000">500</option>
                 <option value="10000">1,000</option>
@@ -92,14 +108,15 @@ export default function RegisterForm() {
             </label>
           </div>
           <div className="flex flex-row mt-5">
-            <label className="w-full flex flex-col" htmlFor="message">
+            <label className="w-full flex flex-col" htmlFor="messageContact">
               <span className="text-white">
                 Please tell us more about your requirements
               </span>
               <textarea
-                name="message"
+                aria-label="message register"
+                name="messageContact"
                 rows={5}
-                id="message"
+                id="messageContact"
                 placeholder="Write your message"
                 required
               ></textarea>
