@@ -11,7 +11,7 @@ export default function NextEvents() {
     <>
       <div id="tickets" className="mt-24 bg-next-events p-5 pt-24 pb-10 w-full shadow">
         <h3 className="text-center text-white text-2xl mb-3">Next events</h3>
-        <div className="grid gap-3 grid-cols-5 text-white">
+        <div className="grid gap-3 grid-cols-2 md:grid-cols-5 text-white">
           <div>
             <Image src={image1} className="w-auto" alt="Mike Towers" />
             <h4>Mike Towers</h4>

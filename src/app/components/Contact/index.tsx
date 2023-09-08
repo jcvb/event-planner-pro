@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <div id="contact" className="w-full contact-bg pt-10">
-        <div className="flex flex-col justify-between items-center w-full md:max-w-screen-xl mx-auto px-32 py-16">
+        <div className="flex flex-col justify-between items-center w-full md:max-w-screen-xl mx-auto px-5 md:px-32 py-16">
           <div className="w-full">
             <h3 className="text-white text-center font-medium text-2xl mb-2">
               Contact
@@ -41,8 +41,8 @@ export default function Contact() {
                   />
                 </label>
               </div>
-              <div className="flex w-full mt-5">
-                <div className="flex flex-row w-2/12 mr-5">
+              <div className="flex flex-col md:flex-row w-full mt-5">
+                <div className="flex flex-row w-full md:w-2/12 md:mr-5">
                   <label className="w-full" htmlFor="lada">
                     <span className="text-white">Lada:</span>
                     <select
@@ -61,7 +61,7 @@ export default function Contact() {
                     </select>
                   </label>
                 </div>
-                <div className="flex flex-row w-10/12 ml-5">
+                <div className="flex flex-row w-full md:w-10/12 mt-5 md:mt-0 md:ml-5">
                   <label className="w-full" htmlFor="telephoneNumber">
                     <span className="text-white">Telephone number:</span>
                     <input

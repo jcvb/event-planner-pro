@@ -8,8 +8,8 @@ export default function RegisterForm() {
           Discuss a tailored solution
         </h3>
         <form action="" className="flex flex-col w-full">
-          <div className="flex w-full">
-            <div className="flex flex-row w-1/2 mr-5">
+          <div className="flex flex-col md:flex-row w-full">
+            <div className="flex flex-row w-full md:w-1/2 md:mr-5">
               <label className="w-full" htmlFor="fullNameContact">
                 <span className="text-white">Full Name:</span>
                 <input
@@ -23,7 +23,7 @@ export default function RegisterForm() {
                 />
               </label>
             </div>
-            <div className="flex flex-row w-1/2 ml-5">
+            <div className="flex flex-row w-full md:w-1/2 md:ml-5 mt-5 md:mt-0">
               <label className="w-full" htmlFor="CompanyName">
                 <span className="text-white">Company Name:</span>
                 <input
@@ -52,8 +52,8 @@ export default function RegisterForm() {
               />
             </label>
           </div>
-          <div className="flex w-full mt-5">
-            <div className="flex flex-row w-2/12 mr-5">
+          <div className="flex flex-col md:flex-row w-full mt-5">
+            <div className="flex md:flex-row w-full md:w-2/12 md:mr-5">
               <label className="w-full" htmlFor="ladaContact">
                 <span className="text-white">Lada:</span>
                 <select
@@ -72,7 +72,7 @@ export default function RegisterForm() {
                 </select>
               </label>
             </div>
-            <div className="flex flex-row w-10/12 ml-5">
+            <div className="flex flex-row w-full md:w-10/12 md:ml-5 mt-5 md:mt-0">
               <label className="w-full" htmlFor="telephoneNumberContact">
                 <span className="text-white">Telephone number:</span>
                 <input

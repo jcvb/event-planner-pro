@@ -5,10 +5,11 @@ export default function FAQ() {
     <>
       <div id="faq" className="bg-epp-default pt-10">
         <div className="mt-1 md:max-w-screen-xl py-10 mx-auto">
-          <h3 className="text-4xl text-center font-semibold">
+          <h3 className="text-2xl md:text-4xl text-center font-semibold">
             Talk to Us & FAQs
           </h3>
-          <h4 className="text-2xl font-regular">General</h4>
+          <div className="px-5 md:px-0">
+          <h4 className="pt-5 text-xl md:text-2xl font-regular">General</h4>
           <Accordion
             title="What is EventPlanner Pro?"
             content="EventPlanner Pro is a comprehensive event management platform tailored for event organizers and planners. It offers an integrated suite of tools that facilitate online registration, ticketing, attendee communication, and provides in-depth post-event analysis. The platform is designed to simplify and streamline the event planning process, ensuring that organizers can create memorable experiences for attendees while maintaining efficiency and oversight. Its primary focus is to offer seamless event management, helping users create unforgettable events with ease."
@@ -21,7 +22,7 @@ export default function FAQ() {
             title="What makes EventPlanner Pro user-friendly for those new to event management?"
             content="EventPlanner Pro is designed with both seasoned organizers and newcomers in mind. For those new to event management, the platform offers an intuitive interface, step-by-step guides, and a rich library of resources to help users get started. Features are organized logically, ensuring that even those without prior experience can navigate the system with ease. Additionally, our dedicated support team is always on hand to assist with any queries, ensuring that every user, regardless of their expertise level, can execute successful events with confidence."
           />
-          <h4 className="text-2xl font-regular mt-12">
+          <h4 className="pt-5 text-xl md:text-2xl font-regular mt-12">
             Registration & Ticketing
           </h4>
           <Accordion
@@ -60,6 +61,7 @@ Enter the maximum number of tickets you'd like a single attendee or purchaser to
 Save your changes.
 By setting a limit, you ensure a fair distribution of tickets and prevent potential scalping or bulk buying for resale. If you have any special requirements or need assistance with this feature, our support team is always ready to help."
           />
+          </div>
         </div>
       </div>
     </>

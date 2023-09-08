@@ -5,9 +5,9 @@ export default function About() {
   return (
     <>
       <div id="about" className="w-full pt-10">
-        <div className="flex flex-col justify-between items-center w-full md:max-w-screen-xl mx-auto px-32 py-16">
-          <h2 className="text-4xl font-light">About Our Journey</h2>
-          <p className="mt-5 mb-2 font-light">
+        <div className="flex flex-col justify-between items-center w-full md:max-w-screen-xl mx-auto px-5 md:px-32 py-16">
+          <h2 className="text-2xl md:text-4xl font-light">About Our Journey</h2>
+          <p className="mt-5 mb-2 font-light text-justify">
             Founded in 2015, EventPlanner Pro emerged from a passion to simplify
             event planning. Our mission? Make every event a masterpiece with
             innovative tools. Today, we&apos;re trusted globally, blending

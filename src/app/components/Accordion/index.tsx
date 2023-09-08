@@ -25,12 +25,12 @@ export default function Accordion({
       }}
     >
       <button
+        className="text-sm md:text-base"
         style={{
           width: "100%",
           position: "relative",
           textAlign: "left",
           padding: "4px",
-          fontSize: "18px",
           fontWeight: "light",
           border: "none",
           background: "transparent",
@@ -43,6 +43,7 @@ export default function Accordion({
         <p>{title}</p>
       </button>
       <div
+        className=" text-xs md:text-sm"
         style={{ display: isShowing ? "block" : "none", padding: "10px", color: "gray", textAlign: "justify" }}
         dangerouslySetInnerHTML={{
           __html: content,
