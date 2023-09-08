@@ -11,7 +11,7 @@ export default function Blog() {
           <h2 className="text-3xl pt-3">Blog</h2>
         </div>
         <div className="w-full md:max-w-screen-xl mx-auto p-3 pb-10">
-          <div className="grid grid-cols-3 gap-3 mt-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-5">
             <BlogItem />
             <BlogItem />
             <BlogItem />
