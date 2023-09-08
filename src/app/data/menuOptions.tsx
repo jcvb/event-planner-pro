@@ -31,6 +31,10 @@ const menuOptions: Array<MenuOptions> = [
     name: "Contact",
     url: "/#contact",
   },
+  {
+    name: "Blog",
+    url: "/blog",
+  },
 ];
 
 export default menuOptions;
