@@ -15,6 +15,7 @@ export default class Slider extends React.Component {
         <div id="home" className="bg-epp-default pt-10">
           <div className="mt-1 md:max-w-screen-xl mx-auto">
             <Carousel
+            showIndicators={false}
               emulateTouch={true}
               infiniteLoop={true}
               autoPlay={true}
